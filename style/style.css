@@ -33,18 +33,65 @@ body{
 }
 
 .banner-title{
-    margin: 20px 0;
+    margin-top: 20px;
     line-height: 1.4;
 }
 
 .description{
     color: #565656;
+    margin: 20px 0;
+    line-height: 1.8;
 }
 
 .banner-btn{
-    margin-top: 20px;
     padding: 14px 30px;
     background-color: #0D1321;
     color: white;
     border-radius: 5px;
+}
+
+
+/* main */
+
+main{
+    margin: 0 150px;
+}
+
+/* Web Develop section */
+
+.web-development-section{
+    background-color: #f0eeeebb;
+    padding: 80px 50px;
+    margin-bottom: 100px;
+}
+
+.titles{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cards{
+    margin: 0 50px;
+}
+.card-1{
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    gap: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    color: #0D1321;
+    line-height: 1.6;
+}
+
+.card-2{
+    background-image: linear-gradient(to left, #ffffff, #ebebeb);
+    padding: 50px;
+    border-radius: 5px;
+    gap: 50px;
+    display: flex;
+    margin-bottom: 20px;
 }
