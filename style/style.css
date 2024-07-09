@@ -73,13 +73,16 @@ main{
 .cards{
     margin: 0 50px;
 }
-.card-1{
-    background-color: white;
+
+.card-1, .card-2{
     padding: 50px;
     border-radius: 5px;
     gap: 50px;
     display: flex;
     margin-bottom: 20px;
+}
+.card-1{
+    background-color: white;
 }
 
 .card-title{
@@ -89,9 +92,47 @@ main{
 
 .card-2{
     background-image: linear-gradient(to left, #ffffff, #ebebeb);
-    padding: 50px;
-    border-radius: 5px;
-    gap: 50px;
+}
+
+/* targets section */
+
+.targets-section {
+    margin: 100px 0;
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center; /* Aligns items in the center horizontally */
+}
+
+.targets {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centers items horizontally */
+    width: 100%; /* Ensures the targets section spans the full width */
+}
+
+.target-1, .target-2, .target-3 {
+    padding: 40px;
+    border-radius: 5px;
+    flex: 1; /* Distributes space equally among targets */
+}
+
+.target-1 {
+    background-color: #ffe8e8;
+}
+
+.target-2 {
+    background-color: #d0e2ff;
+}
+
+.target-3 {
+    background-color: #fff2b0;
+}
+
+.target-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin: 15px 0;
 }
