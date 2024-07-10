@@ -171,7 +171,7 @@ footer{
     margin: 0 150px;
     color: white;
     text-align: center;
-    background-image: linear-gradient(to bottom, #00000080, #00000080), url('https://i.ibb.co/9YBLNbY/handshake.jpg');
+    background-image: linear-gradient(to bottom, #00000080, #00000080), url(' ');
     background-position: center;
     padding: 100px 100px;
     margin-bottom: 50px;
@@ -179,7 +179,7 @@ footer{
     border-radius: 10px;
 }
 
-
+        
 .paragraph{
     margin-top: 20px;
 }
