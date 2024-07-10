@@ -94,6 +94,14 @@ main{
     background-image: linear-gradient(to left, #ffffff, #ebebeb);
 }
 
+/* My Inspiration section */
+
+.iframe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* targets section */
 
 .targets-section {
@@ -141,8 +149,57 @@ main{
 /* next target section */
 
 .card{
+    border: solid 1px #b9b9b9;
+    padding: 20px 30px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     gap: 40px;
     margin-bottom: 60px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 100px;
+    margin: 0 150px;
+}
+
+/* support section */
+
+.support-section {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #00000080, #00000080), url('/assets/handshake.jpg');
+
+    background-position: center;
+    padding: 100px 100px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+.paragraph{
+    margin-top: 20px;
+}
+
+.inputs{
+    margin-top: 25px;
+}
+
+.input-field{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20vh;
+}
+
+.submit-button {
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
 }
